@@ -8,7 +8,7 @@ import LoadingBar from 'react-top-loading-bar';
 
 export default function App() {
   const [progress, setProgress] = useState(0);
-  const apiKey = process.env.REACT_APP_API_KEY2;
+  const apiKey = process.env.REACT_APP_API_KEY3;
   return (
     <BrowserRouter>
       <LoadingBar
